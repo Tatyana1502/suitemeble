@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 100;
+    /* border: 1px solid red;  */
+}
+
+body {
+    background-color: #E2E2E2;
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 2rem 0;
+    border: 1px solid red;
+    background-color: #fff;
+}
