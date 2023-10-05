@@ -12,8 +12,135 @@ body {
 }
 
 .main-container {
+    width: 100%;
     margin: 0 auto;
-    padding: 2rem 0;
-    border: 1px solid red;
+    padding: 0rem 0;
+    /* border: 1px solid rgb(68, 0, 255); */
     background-color: #fff;
 }
+ header {
+    font-weight: 500;
+    margin: 0rem 0rem;
+    padding: 1rem 0rem 5rem 0rem;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav li a { 
+    padding: 10px 10px;
+    margin: 0rem 1rem 0rem 2.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+nav a:hover{ 
+    background: #6F3740;
+    color: black;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 0rem 2rem 0rem;
+    font-size: 50px;
+    font: bold;
+}
+.colortext {
+    font-size: 50px;
+    color: #672E34;
+}
+.mainfoto {
+    margin: 0rem;
+    width: 100%;
+}
+article {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid rgb(187, 45, 176); */
+}
+.card {
+    width: 31%; 
+ }
+article div h2 {
+    display: flex;
+    justify-content: center;
+    background-color: #662F32;
+    color: #fff;
+    /* margin: 2rem 0rem 2rem 0rem; */
+}
+.foto {
+    display: block;
+    width: 100%;
+}
+article div h3 {
+    background-color: #645955;
+    color: #fff;
+}
+.plusfoto {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #645955;
+    width: 100%; 
+}
+section {
+    /* border: 1px solid rgb(170, 237, 13); */
+    padding: 1rem 1rem; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.tesimonials {
+    padding: 0rem 1.5rem 0rem 0rem;
+    width: 100%;
+}
+h4 {
+    font-size: 25px;
+    padding: 0rem 0rem 3rem 0rem;
+}
+ul {
+    margin: 0rem 0rem 1rem 0rem;
+    list-style: url(..//img/arrow.png);
+}
+ul li {
+    margin: 0rem 0rem 1rem 0rem;
+    /* marker: inherit; */
+}
+.premium-services {
+    padding: 0rem 0rem 1rem 2rem;
+    width: 100%;
+}
+p {
+    color: #5D323B;
+    padding: 0rem 0rem 1rem 0rem;
+}
+.par {
+    color: black;
+}
+.readmore {
+    /* display: block;
+    justify-content: center; */
+    color: black;
+    background: #564D48;
+    padding: 0.4rem 0.4rem 1rem 0.4rem;
+    width: 35%;
+    font-size: 14px;
+}
+.about-us {
+    width: 100%;
+}
+footer {
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
+h5 {
+    padding: 1rem 0rem 0rem 0rem;
+} 
