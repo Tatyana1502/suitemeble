@@ -6,11 +6,9 @@
     font-weight: 100;
     /* border: 1px solid red;  */
 }
-
 body {
     background-color: #E2E2E2;
 }
-
 .main-container {
     width: 100%;
     margin: 0 auto;
@@ -71,7 +69,6 @@ article div h2 {
     justify-content: center;
     background-color: #662F32;
     color: #fff;
-    /* margin: 2rem 0rem 2rem 0rem; */
 }
 .foto {
     display: block;
@@ -109,7 +106,6 @@ ul {
 }
 ul li {
     margin: 0rem 0rem 1rem 0rem;
-    /* marker: inherit; */
 }
 .premium-services {
     padding: 0rem 0rem 1rem 2rem;
@@ -123,8 +119,6 @@ p {
     color: black;
 }
 .readmore {
-    /* display: block;
-    justify-content: center; */
     color: black;
     background: #564D48;
     padding: 0.4rem 0.4rem 1rem 0.4rem;
@@ -138,8 +132,6 @@ footer {
    display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
-    
 }
 h5 {
     padding: 1rem 0rem 0rem 0rem;
